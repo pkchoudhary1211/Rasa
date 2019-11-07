@@ -1,0 +1,293 @@
+## happy path
+* greet
+  - utter_greet
+* mood_great
+  - utter_happy
+
+## sad path 1
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* affirm
+  - utter_happy
+
+## sad path 2
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* deny
+  - utter_goodbye
+
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot
+
+## interactive_story_1
+* greet
+    - utter_greet
+* affirm
+    - utter_happy
+* deny
+    - utter_goodbye
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* affirm
+    - utter_happy
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* affirm
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_greet
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* affirm
+    - utter_hundai_car
+* mood_unhappy
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_happy
+* deny
+    - utter_goodbye
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_happy
+* toyota_car
+    - utter_toyota_car
+* mood_unhappy
+    - utter_hundai_suv
+* affirm
+    - utter_hundai_suv
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_toyota_suv
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classA
+* car_intent
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_roll_royce_car
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classA
+* car_intent
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* affirm
+    - utter_hundai_car
+* affirm
+    - utter_hundai_suv
+* affirm
+    - utter_happy
+* mercdes_car
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classA
+* car_intent
+    - utter_happy
+* roll_royce
+    - utter_roll_royce_car
+* car_intent
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* affirm
+    - utter_hundai_car
+* affirm
+    - utter_hundai_suv
+* affirm
+    - utter_happy
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classA
+* car_intent
+    - utter_happy
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_roll_royce_car
+* car_intent
+    - utter_happy
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_toyota_mini
+* toyota_car
+    - utter_happy
+
+## interactive_story_1
+* mercdes_car
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classB
+* car_intent
+    - utter_happy
+* hundai_car
+    - utter_greet
+* hundai_car
+    - utter_hundai_car
+* affirm
+    - utter_hundai_suv
+* affirm
+    - utter_happy
+* toyota_car
+    - utter_toyota_car
+* mood_unhappy
+    - utter_toyota_mini
+* toyota_car
+    - utter_happy
+* hundai_suv
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_roll_royce_car
+* car_intent
+    - utter_happy
+* car_intent
+    - utter_car
+* car_intent
+    - utter_normal_car
+* car_intent
+    - utter_toyota_car
+* mood_unhappy
+    - utter_toyota_mini
+* toyota_car
+    - utter_happy
+
+## interactive_story_1
+* car_intent
+    - utter_car
+* car_intent
+    - utter_luxury_car
+* car_intent
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classA
+* car_intent
+    - utter_happy
+* hundai_car
+    - utter_hundai_car
+* affirm
+    - utter_happy
+* car_intent
+    - utter_mercdes_car
+* car_intent
+    - utter_mercdes_classB
+* car_intent
+    - utter_happy
+* toyota_car
+    - utter_toyota_car
+* mood_unhappy
+    - utter_toyota_mini
+* toyota_car
+    - utter_happy
+* car_intent
+    - utter_car

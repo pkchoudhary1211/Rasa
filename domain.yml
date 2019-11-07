@@ -1,0 +1,169 @@
+actions:
+- utter_car
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_hundai_car
+- utter_hundai_mini
+- utter_hundai_suv
+- utter_iamabot
+- utter_luxury_car
+- utter_mercdes_car
+- utter_mercdes_classA
+- utter_mercdes_classB
+- utter_normal_car
+- utter_roll_royce_car
+- utter_toyota_car
+- utter_toyota_mini
+- utter_toyota_suv
+intents:
+- affirm
+- mood_unhappy
+- toyota_car
+- hundai_car
+- car_intent
+- hundai_suv
+- mercdes_car
+- roll_royce
+- deny
+- goodbye
+- greet
+- mood_great
+- bot_challenge
+- normal_car
+- luxury_car
+- hundai_mini
+- toyota_suv
+- toyota_mini
+- mercdes_classA
+- mercdes_classB
+templates:
+  utter_car:
+  - buttons:
+    - payload: normal_car
+      title: Normal
+    - payload: luxury_car
+      title: luxury
+    text: What Kind of car Do You Like
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_hundai_car:
+  - buttons:
+    - payload: hundai_suv
+      title: SUV
+    - payload: hundai_mini
+      title: Mini
+    text: select Car Type
+  utter_hundai_mini:
+  - buttons:
+    - payload: hundai_mini_i10
+      title: Hyundai i10
+    - payload: hyundai_mini_santro
+      title: Hyundai Santro
+    - payload: hundai_car
+      title: Back to  hyundai Car
+    - payload: utter_car
+      title: back to Main Menu
+    text: select Car Model
+  utter_hundai_suv:
+  - buttons:
+    - payload: hundai_suv_venue
+      title: Hyundai Venue
+    - payload: hyundai_suv_creta
+      title: Mini
+    - payload: hundai_car
+      title: Back to  hyundai Car
+    - payload: utter_car
+      title: back to Main Menu
+    text: select Car Type
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_luxury_car:
+  - buttons:
+    - payload: mercdes_car
+      title: Mercdes
+    - payload: roll_royce
+      title: roll royce
+    text: which comapany car do you like ?
+  utter_mercdes_car:
+  - buttons:
+    - payload: mercdes_classA
+      title: Class A
+    - payload: mercdes_classB
+      title: Class B
+    text: which Model do you like ?
+  utter_mercdes_classA:
+  - buttons:
+    - payload: mercdes_classA_Hatchback
+      title: Hatchback
+    - payload: mercdes_classA_Sedan
+      title: Sedan
+    text: which Car do you like ?
+  utter_mercdes_classB:
+  - buttons:
+    - payload: mercdes_classB_Benz_gel
+      title: Benz GLE
+    - payload: mercdes_classB_benz_amg
+      title: Benz AMG GT
+    - payload: mercdes_car
+      ttile: Back To Mercdes Menu
+    - payload: utter_car
+      title: back to Main Menu
+    text: which Car do you like ?
+  utter_normal_car:
+  - buttons:
+    - payload: hundai_car
+      title: Hundai
+    - payload: toyota_car
+      title: Toyota
+    - text: select your car Comapy
+    text: Which Company do you like
+  utter_roll_royce_car:
+  - buttons:
+    - payload: null
+      title: Rolls-Royce Phantom
+    - payload: Rolls_Royce_Dawn
+      title: Rolls-Royce Dawn
+    - payload: Rolls_Royce_Ghost
+      title: Rolls-Royce Ghost
+    text: Select your car
+  utter_toyota_car:
+  - buttons:
+    - payload: toyota_suv
+      title: SUV
+    - payload: toyota_mini
+      title: Mini
+    text: select Car Type
+  utter_toyota_mini:
+  - buttons:
+    - payload: toyota_etios
+      title: Etios
+    - payload: toyota_crysta
+      title: Crysta
+    - payload: toyota_car
+      title: Back to Toyata Car
+    - payload: utter_car
+      title: back to Main Menu
+    text: select Car  Model
+  utter_toyota_suv:
+  - buttons:
+    - payload: toyota_rav4
+      title: RAV4 Hybri
+    - payload: toyota_chr
+      title: C-HR
+    - payload: toyota_car
+      title: Back to Toyata Car
+    - payload: utter_car
+      title: back to Main Menu
+    text: select Car  Model
