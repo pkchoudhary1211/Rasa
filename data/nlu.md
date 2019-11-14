@@ -5,19 +5,6 @@
 - that sounds good
 - correct
 - test
-- hundai
-- hundai
-- hundai_car
-- hundai_car
-- hundai_car
-- hundai_suv
-- hundai_suv_venue
-- hundai_car
-- hundai_suv
-- hyundai_suv_creta
-- hundai_suv
-- hyundai_suv_creta
-- hundai_mini
 
 ## intent:bot_challenge
 - are you a bot?
@@ -32,78 +19,8 @@
 - new car
 - best car
 - car
-- normal_car
 - car
-- normal_car
-- car
-- luxury_car
-- mercdes_car
-- car
-- normal_car
-- car
-- normal_car
-- toyota_car
-- car
-- normal_car
-- toyota_car
-- car
-- normal_car
-- toyota_car
 - utter_car
-- normal_car
-- toyota_car
-- toyota_car
-- car
-- luxury_car
-- mercdes_car
-- mercdes_classA
-- mercdes_classA_Hatchback
-- car
-- luxury_car
-- roll_royce
-- Rolls_Royce_Dawn
-- luxury_car
-- mercdes_car
-- mercdes_car
-- mercdes_classA
-- mercdes_classA_Sedan
-- car
-- normal_car
-- mercdes_classA
-- mercdes_classA_Hatchback
-- Rolls_Royce_Dawn
-- car
-- normal_car
-- car
-- luxury_car
-- mercdes_car
-- mercdes_classA
-- mercdes_classA_Sedan
-- car
-- luxury_car
-- roll_royce
-- Rolls_Royce_Dawn
-- car
-- normal_car
-- toyota_car
-- mercdes_classB
-- mercdes_classB_benz_amg
-- normal_car
-- car
-- luxury_car
-- roll_royce
-- Rolls_Royce_Dawn
-- car
-- normal_car
-- toyota_car
-- car
-- luxury_car
-- mercdes_car
-- mercdes_classB
-- mercdes_classA_Sedan
-- mercdes_car
-- mercdes_classB
-- mercdes_car
 - car
 
 ## intent:deny
@@ -113,7 +30,6 @@
 - don't like that
 - no way
 - not really
-- ok
 - ok
 
 ## intent:goodbye
@@ -132,46 +48,73 @@
 - hey there
 - hello
 
+## intent:helloWorld
+- helloWorld
+- YOU
+- YOU
+- YOU
+
 ## intent:hundai_car
-- hyundai car
+- [hyundai] (car)
 - new model in hyundai
 - normal car
-- hyundai
-- hyundai
-- hyundai
+- hundai_car
+- normal_car
+- hundai_car
+- hundai_car
+- hundai_car
 
 ## intent:hundai_mini
 - hyundai mini car
 - hyundai mini model
 - hyundai mini
+- hundai_mini_i10
+- hundai_mini
 
 ## intent:hundai_suv
-- hundai suv
+- hundai_suv
 - suv in hyundai
 - mini suv
+- hundai_suv
+
+## intent:location
+- location
+- delhi
+- bangalore
+- india
 
 ## intent:luxury_car
+- luxury_car
 - luxury car
 - royal car
 - hight cost car
 - costly car
 - king car
+- luxury_car
+- luxury_car
 
 ## intent:mercdes_car
-- mercdes car
+- mercdes_car
 - new mercedes model
-- mercedes
+- mercdes
+- mercdes_car
+- mercdes_car
 - mercdes
 
 ## intent:mercdes_classA
 - mercedes class a model
 - mercedes A class car
 - mercedes A car
+- mercdes_classA
 
 ## intent:mercdes_classB
+- mercdes_classB
 - mercedes class B model
 - mercedes B class car
 - mercedes B car
+- mercdes_classB_benz_amg
+- mercdes_classB_Benz_gel
+- mercdes_classB
 
 ## intent:mood_great
 - perfect
@@ -194,37 +137,44 @@
 - not very good
 - extremely sad
 - so sad
-- suv
-- toyota_suv
-- toyota_suv
-- toyota_mini
-- toyota_suv
-- toyota_suv
-- toyota_mini
-- toyota_mini
-- toyota_mini
-- toyota_mini
-- toyota_mini
+
+## intent:normal_car
+- normal_car
+- hyundai
 
 ## intent:roll_royce
+- roll_royce
 - rolls car
 - rolls royce
 - new royal cars
 - rolls
+- roll_royce
+- Rolls_Royce_Dawn
+- roll_royce
+- Rolls_Royce_Dawn
 
 ## intent:toyota_car
+- toyota_car
 - toyota
 - toyota_crysta
-- toyota
-- toyota_crysta
-- toyota_crysta
-- toyota
-- toyota_crysta
+- toyota_car
+- toyota_etios
+- toyota_car
+- toyota_car
+- toyota_car
+- toyota_car
 
 ## intent:toyota_mini
+- toyota_mini
 - toyota mini
 - mini model toyota
+- toyota_mini
+- toyota_mini
+- toyota_mini
 
 ## intent:toyota_suv
+- toyota_suv
 - toyota suv
 - suv model toyota
+- toyota_suv
+- toyota_suv

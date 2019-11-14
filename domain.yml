@@ -1,14 +1,18 @@
 actions:
+- action_default_ask_affirmation
+- action_hello_world
 - utter_car
 - utter_cheer_up
 - utter_did_that_help
 - utter_goodbye
 - utter_greet
 - utter_happy
+- utter_hello_world
 - utter_hundai_car
 - utter_hundai_mini
 - utter_hundai_suv
 - utter_iamabot
+- utter_location
 - utter_luxury_car
 - utter_mercdes_car
 - utter_mercdes_classA
@@ -19,32 +23,37 @@ actions:
 - utter_toyota_mini
 - utter_toyota_suv
 intents:
+- hundai_suv
+- car_intent
+- normal_car
+- hundai_car
+- helloWorld
+- mercdes_car
+- hundai_mini
+- toyota_mini
+- luxury_car
+- mercdes_classB
+- toyota_suv
+- roll_royce
+- toyota_car
+- mercdes_classA
 - affirm
 - mood_unhappy
-- toyota_car
-- hundai_car
-- car_intent
-- hundai_suv
-- mercdes_car
-- roll_royce
 - deny
 - goodbye
 - greet
 - mood_great
 - bot_challenge
-- normal_car
-- luxury_car
-- hundai_mini
-- toyota_suv
-- toyota_mini
-- mercdes_classA
-- mercdes_classB
+- location_bangalore_mini_hyundai
+- location_mumbai_mini_hyundai
 templates:
+  action_hello_world:
+  - text: this is hello worold
   utter_car:
   - buttons:
-    - payload: normal_car
+    - payload: /normal_car{car_type:Normal}
       title: Normal
-    - payload: luxury_car
+    - payload: /luxury_car{car_type:luxury}
       title: luxury
     text: What Kind of car Do You Like
   utter_cheer_up:
@@ -58,6 +67,8 @@ templates:
   - text: Hey! How are you?
   utter_happy:
   - text: Great, carry on!
+  utter_hello_world:
+  - text: YOU ARE
   utter_hundai_car:
   - buttons:
     - payload: hundai_suv
@@ -83,7 +94,7 @@ templates:
     - payload: hyundai_suv_creta
       title: Mini
     - payload: hundai_car
-      title: Back to  hyundai Car
+      title: Back to hyundai Car
     - payload: utter_car
       title: back to Main Menu
     text: select Car Type
